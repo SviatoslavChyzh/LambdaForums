@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaForums", "LambdaForums\LambdaForums.csproj", "{B0EEC89F-D2DC-4515-859D-DC40C35AB0A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums", "LambdaForums\LambdaForums.csproj", "{B0EEC89F-D2DC-4515-859D-DC40C35AB0A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaForums.Data", "LambdaForums.Data\LambdaForums.Data.csproj", "{9F2F8D75-65FB-401C-A716-C46A84DA3705}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums.Data", "LambdaForums.Data\LambdaForums.Data.csproj", "{9F2F8D75-65FB-401C-A716-C46A84DA3705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaForums.Service", "LambdaForums.Service\LambdaForums.Service.csproj", "{2927EF98-4E43-4EEB-8277-79FE699C111E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums.Service", "LambdaForums.Service\LambdaForums.Service.csproj", "{2927EF98-4E43-4EEB-8277-79FE699C111E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
