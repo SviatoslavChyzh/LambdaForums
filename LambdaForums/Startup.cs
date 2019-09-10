@@ -1,4 +1,5 @@
-﻿using LambdaForums.Data;
+﻿using LambdaForums.Controllers;
+using LambdaForums.Data;
 using LambdaForums.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -39,6 +40,7 @@ namespace LambdaForums
 				.AddEntityFrameworkStores<ApplicationDbContext>();
 
 			services.AddScoped<IForum, ForumService>();
+			services.AddScoped<IPost, PostService>();
 
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 		}

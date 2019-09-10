@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LambdaForums.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190703174456_Add initial entity models")]
-    partial class Addinitialentitymodels
+    [Migration("20190717200014_InitialMigrations")]
+    partial class InitialMigrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -261,6 +261,14 @@ namespace LambdaForums.Data.Migrations
             modelBuilder.Entity("LambdaForums.Data.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<bool>("IsActive");
+
+                    b.Property<DateTime>("MemberSince");
+
+                    b.Property<string>("ProfileImageUrl");
+
+                    b.Property<int>("Rating");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
